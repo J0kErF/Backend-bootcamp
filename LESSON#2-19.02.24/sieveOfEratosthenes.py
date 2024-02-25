@@ -1,3 +1,5 @@
+### this is not the algorithm!
+### plus, not very efficient.
 
 nums=[i for i in range(4,150)]
 #remove all none prime numbers in nums
