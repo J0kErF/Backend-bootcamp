@@ -25,12 +25,14 @@ class Store:
         self.balance = balance
     
     def add_employee(self,employee):
+        ### is there a way to make sure that the employee is realy an employee? same for other initiliazations
         if employee not in self.employees:
             self.employees.append(employee)
             print("Employee",employee.name,"added successfully")
         else:
             print("Employee already exists")
     def remove_employee(self,employee):
+        ### good input handleing! same for all below
         if employee in self.employees:
             self.employees.remove(employee)
             print("Employee",employee.name,"removed successfully")
@@ -129,6 +131,8 @@ class Store:
 
 # Create a store
 store = Store()
+
+### dry + hardcoding. please make dynamic
 
 # Create employees
 employee1 = Employee(100,"John",1,"AA")
