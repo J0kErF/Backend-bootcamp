@@ -1,9 +1,12 @@
 import os
 import time
+
 def clear_screen():
     os.system('clear')
+    
 def wait_seconds(seconds):
     time.sleep(seconds)
+
 def print_board(board):
     for i in range(board.rows):
         for j in range(board.cols):
@@ -12,6 +15,7 @@ def print_board(board):
             else:
                 print(".", end=" ")
         print()
+        
 def get_user_input(message):
     return input(message)
 
