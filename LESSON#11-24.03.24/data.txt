@@ -1,0 +1,8 @@
+Algorithm, Input Size, Time (seconds)
+
+Fibonacci (Naive),10,2.193450927734375e-05
+Fibonacci (Memoized),10,8.58306884765625e-06
+Linear Search,10,1.9073486328125e-06
+Dictionary Search,10,4.1961669921875e-05
+Count Words (Naive),10,4.0531158447265625e-06
+Count Words (Hash),10,4.76837158203125e-06
